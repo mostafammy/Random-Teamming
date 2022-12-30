@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+.Choose-option,.input-lev{
+    display: none;
+}
+.Choose-option{
+    background-color: inherit;
+    width: 80%;
+}
+.Choose-option>div{
+    background-color: inherit;
+    width: 50%;
+    height: fit-content;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.input-lev{
+    /*display: flex;*/
+    background-color: aliceblue;
+    width: 80%;
+    height: 500px;
+    padding: 5px;
+}
+
+.input-lev>div{
+    /*display: flex;
+    width: 60%;
+    margin: 10px;
+    margin-top: 300;
+    line-height: 100px;
+*/
+}
+
+.input-lev>input{
+    
+    width: 60%;
+    margin: 10px;
+    margin-top: 1px;
+    line-height: 3px;
+    height: 40px;
+    background-color: rgba(219, 207, 42, 0.623);
+    color: rgb(60, 0, 255);
+    font-size: larger;
+    font-weight: 700;
+}
+
+.input-lev>button{
+    margin-top: 20px;
+    width: 20%;
+    font-size: large;
+    font-weight: 600;
+}
+
+.Team33{
+    width: 80%;
+    background-color: rgb(100, 98, 98);
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: none;
+}
+
+.Team33>div{
+    width: 30%;
+    height: 30px;
+    background-color: rgb(251, 235, 235);
+    margin-top: 55px;
+    color: black;
+    font-weight: 600;
+}
